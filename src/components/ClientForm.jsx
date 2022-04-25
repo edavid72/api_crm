@@ -18,7 +18,7 @@ const ClientForm = ({ showClient, loading }) => {
   const handleSubmit = async (values) => {
     try {
       if (showClient.id) {
-        const url = `http://localhost:4000/clients/${showClient.id}`;
+        const url = `${import.meta.env.VITE_API_URL}/${showClient.id}`;
 
         const response = await fetch(url, {
           method: 'PUT',
@@ -35,7 +35,7 @@ const ClientForm = ({ showClient, loading }) => {
         // Redirect to ?
         navigate('/clients');
       } else {
-        const url = `http://localhost:4000/clients`;
+        const url = import.meta.env.VITE_API_URL;
 
         const response = await fetch(url, {
           method: 'POST',
