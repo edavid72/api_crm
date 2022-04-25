@@ -1,0 +1,28 @@
+{
+  "clients": [
+    {
+      "name": "Goku",
+      "company": "Kame House",
+      "email": "goku@sayan.com",
+      "phone": "9809778",
+      "notes": "",
+      "id": 7
+    },
+    {
+      "name": "Pedro",
+      "company": "Pdroask",
+      "email": "pedro888444@yahoo.com",
+      "phone": "09009090",
+      "notes": "holalalal",
+      "id": 8
+    },
+    {
+      "name": "Mateo Cervellon",
+      "company": "Mateo Industries",
+      "email": "mateo.cervellon2319@gmail.com",
+      "phone": "98989899",
+      "notes": "mmmamam",
+      "id": 9
+    }
+  ]
+}
